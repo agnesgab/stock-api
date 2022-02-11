@@ -15,11 +15,7 @@ $c = 'FDX';
 $d = 'SM';
 $search = $_GET['search'] ?? '';
 
-$myCompanies = [];
-$myCompanies[] = $a;
-$myCompanies[] = $b;
-$myCompanies[] = $c;
-$myCompanies[] = $d;
+$myCompanies = [$a, $b, $c, $d];
 
 
 function compareResults($client, $company): float
