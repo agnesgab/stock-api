@@ -446,9 +446,9 @@ class Configuration
     }
 
     /**
-     * Returns URL based on the index and variables
+     * Returns URL based on the index.html and variables
      *
-     * @param int        $index     index of the host settings
+     * @param int        $index     index.html of the host settings
      * @param array|null $variables hash of variable and the corresponding value (optional)
      * @return string URL based on host settings
      */
@@ -460,9 +460,9 @@ class Configuration
 
         $hosts = $this->getHostSettings();
 
-        // check array index out of bound
+        // check array index.html out of bound
         if ($index < 0 || $index >= sizeof($hosts)) {
-            throw new \InvalidArgumentException("Invalid index $index when selecting the host. Must be less than ".sizeof($hosts));
+            throw new \InvalidArgumentException("Invalid index.html $index when selecting the host. Must be less than ".sizeof($hosts));
         }
 
         $host = $hosts[$index];

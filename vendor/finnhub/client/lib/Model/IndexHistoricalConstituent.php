@@ -278,7 +278,7 @@ class IndexHistoricalConstituent implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets date
      *
-     * @param \DateTime|null $date Date of joining or leaving the index.
+     * @param \DateTime|null $date Date of joining or leaving the index.html.
      *
      * @return self
      */

@@ -64,7 +64,7 @@ class DefaultApi
     protected $headerSelector;
 
     /**
-     * @var int Host index
+     * @var int Host index.html
      */
     protected $hostIndex;
 
@@ -72,7 +72,7 @@ class DefaultApi
      * @param ClientInterface $client
      * @param Configuration   $config
      * @param HeaderSelector  $selector
-     * @param int             $hostIndex (Optional) host index to select the list of hosts if defined in the OpenAPI spec
+     * @param int             $hostIndex (Optional) host index.html to select the list of hosts if defined in the OpenAPI spec
      */
     public function __construct(
         ClientInterface $client = null,
@@ -87,9 +87,9 @@ class DefaultApi
     }
 
     /**
-     * Set the host index
+     * Set the host index.html
      *
-     * @param int $hostIndex Host index (required)
+     * @param int $hostIndex Host index.html (required)
      */
     public function setHostIndex($hostIndex): void
     {
@@ -97,9 +97,9 @@ class DefaultApi
     }
 
     /**
-     * Get the host index
+     * Get the host index.html
      *
-     * @return int Host index
+     * @return int Host index.html
      */
     public function getHostIndex()
     {
@@ -10858,7 +10858,7 @@ class DefaultApi
             );
         }
 
-        $resourcePath = '/index/constituents';
+        $resourcePath = '/index.html/constituents';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -11126,7 +11126,7 @@ class DefaultApi
             );
         }
 
-        $resourcePath = '/index/historical-constituents';
+        $resourcePath = '/index.html/historical-constituents';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -16098,7 +16098,7 @@ class DefaultApi
     public function similarityIndexRequest($symbol = null, $cik = null, $freq = null)
     {
 
-        $resourcePath = '/stock/similarity-index';
+        $resourcePath = '/stock/similarity-index.html';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
